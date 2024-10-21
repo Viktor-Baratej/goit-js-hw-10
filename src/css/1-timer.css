@@ -1,5 +1,4 @@
 body {
-
   padding: 36px;
 }
 
@@ -7,10 +6,10 @@ input {
   border: 1px solid #808080;
   border-radius: 4px;
   max-width: 272px;
-  padding: 5px;
+  padding: 8px;
 }
 
-.input:hover {
+input:hover {
   border: 1px solid #000;
 }
 
