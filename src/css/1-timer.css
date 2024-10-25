@@ -8,10 +8,18 @@ body {
 }
 
 input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
   border: 1px solid #808080;
+  width: 272px;
+  height: 40px;
   border-radius: 4px;
   max-width: 272px;
   padding: 8px;
+  background: #fff;
 }
 
 input:hover {
@@ -48,6 +56,8 @@ button[data-start]:disabled {
 }
 
 .timer {
+  width: 346px;
+  height: 72px;
   display: flex;
   gap: 24px;
 }
@@ -62,7 +72,6 @@ button[data-start]:disabled {
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  width: 100%;
   text-align: center;
 }
 .label {
