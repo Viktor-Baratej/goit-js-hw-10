@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   padding: 36px;
 }
@@ -13,29 +18,29 @@ input:hover {
   border: 1px solid #000;
 }
 
-button {
+button[data-start] {
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
   height: 40px;
-  background: #cfcfcf;
-}
-
-.btn-start {
+  background-color: #4e75ff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #fff;
+  margin-left: 8px;
+}
+button[data-start]:hover {
+  cursor: pointer;
+  background-color: #6c8cff;
+}
+button[data-start]:disabled {
+  cursor: pointer;
+  background-color: #cfcfcf;
   color: #989898;
 }
-
-.btn-start:hover {
-  color: #fff;
-  background: #6c8cff;
-  cursor: pointer;
-}
-
 .wrapp {
   display: flex;
   gap: 8px;
