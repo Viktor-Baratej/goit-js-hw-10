@@ -55,7 +55,10 @@ startButton.addEventListener('click', () => {
 
     if (timeRemaining <= 0) {
       clearInterval(countdownInterval);
-      updateTimer(0);
+
+      // updateTimer(0); помилка undefined;
+      updateTimer({ days: 0, hours: 0, minutes: 0, seconds: 0 }); //правильне рішення.
+
       iziToast.success({
         title: 'Done',
         message: 'Countdown has ended',
