@@ -30,6 +30,12 @@ button {
   color: #989898;
 }
 
+.btn-start:hover {
+  color: #fff;
+  background: #6c8cff;
+  cursor: pointer;
+}
+
 .wrapp {
   display: flex;
   gap: 8px;
